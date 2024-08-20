@@ -1,4 +1,7 @@
-# Developer : Hamdy Abou El Anein
+# two commands before running
+#python3 -m pip install pygame --user
+#sudo python3 -m pip install --upgrade easygui
+#to run: python3 Tennis.py
 
 import random
 import pygame
@@ -76,7 +79,7 @@ def draw(canvas):
     )
     pygame.draw.line(canvas, WHITE, [WIDTH // 3.5, 0], [WIDTH // 3.5, HEIGHT], 1)
     pygame.draw.line(
-        canvas, WHITE, [PAD_WIDTH - 5, 0], [PAD_WIDTH - 5, HEIGHT], 1
+        canvas, WHITE, [PAD_WIDTH +420, 0], [PAD_WIDTH +420, HEIGHT], 1
     )
 
 
